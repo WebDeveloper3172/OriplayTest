@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Scenes/Demo_FreeKitchen.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
