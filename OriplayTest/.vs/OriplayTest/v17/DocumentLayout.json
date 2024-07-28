@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\stickmangithub\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\materialgathering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\materialgathering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Input\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Script\\Input\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Title": "ConstructionZone.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ConstructionZone.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs",
+              "RelativeToolTip": "Assets\\Script\\ConstructionZone.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:24:01.831Z",
+              "WhenOpened": "2024-07-28T06:45:46.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OnScreenStick.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenStick.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MaterialGathering.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\MaterialGathering.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MaterialGathering.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\MaterialGathering.cs",
+              "RelativeToolTip": "Assets\\Script\\MaterialGathering.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAnwDMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:58:13.82Z",
+              "WhenOpened": "2024-07-28T06:44:57.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Input\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\Input\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:24:01.831Z",
               "EditorCaption": ""
             }
           ]

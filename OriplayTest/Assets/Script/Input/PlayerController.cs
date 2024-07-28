@@ -35,4 +35,8 @@ public class PlayerController : MonoBehaviour
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y) * moveSpeed * Time.deltaTime;
         transform.Translate(move, Space.World);
     }
+    public bool IsMoving()
+    {
+        return moveInput != Vector2.zero;
+    }
 }
