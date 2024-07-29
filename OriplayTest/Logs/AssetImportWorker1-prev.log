@@ -15,7 +15,7 @@ C:/Users/user/Desktop/StickmanGitHub/OriplayTest/OriplayTest/OriplayTest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50584
+62938
 Successfully changed project path to: C:/Users/user/Desktop/StickmanGitHub/OriplayTest/OriplayTest/OriplayTest
 C:/Users/user/Desktop/StickmanGitHub/OriplayTest/OriplayTest/OriplayTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/user/Desktop/StickmanGitHub/OriplayTest/OriplayTest/OriplayTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1100] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3741278398 [EditorId] 3741278398 [Version] 1048832 [Id] WindowsEditor(7,WIN-PRALT2F9RFA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15240] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2040837013 [EditorId] 2040837013 [Version] 1048832 [Id] WindowsEditor(7,WIN-PRALT2F9RFA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1100] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3741278398 [EditorId] 3741278398 [Version] 1048832 [Id] WindowsEditor(7,WIN-PRALT2F9RFA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15240] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2040837013 [EditorId] 2040837013 [Version] 1048832 [Id] WindowsEditor(7,WIN-PRALT2F9RFA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008533 seconds.
-- Loaded All Assemblies, in  0.404 seconds
+Registered in 0.009378 seconds.
+- Loaded All Assemblies, in  0.312 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 199 ms
+Android Extension - Scanning For ADB Devices 251 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 927ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 965ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (111ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (97ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (525ms)
+	FinalizeReload (654ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
+		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (315ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (366ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 927ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.618 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1274ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (428ms)
-		LoadAssemblies (275ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (308ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (185ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (658ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (765ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
+		SetupLoadedEditorAssemblies (604ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (25ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (367ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (473ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (58.3 KB). Loaded Objects now: 3991.
-Memory consumption went from 140.5 MB to 140.4 MB.
-Total: 2.392500 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.176900 ms MarkObjects: 1.906100 ms  DeleteObjects: 0.086400 ms)
+Unloading 40 unused Assets / (58.5 KB). Loaded Objects now: 3992.
+Memory consumption went from 140.9 MB to 140.8 MB.
+Total: 2.752700 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.400700 ms  DeleteObjects: 0.109100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,46 +186,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 285098.350850 seconds.
-  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Scenes
-  artifactKey: Guid(740be6416513b5444ae9f630f65ae7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Scenes using Guid(740be6416513b5444ae9f630f65ae7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '168761111190c95b5e8dec89cd6686cf') in 0.001533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Package/GeniusCrate_Games
-  artifactKey: Guid(3862c8ed088dace4596a252820e2f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Package/GeniusCrate_Games using Guid(3862c8ed088dace4596a252820e2f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '18ad7abf82b52ea5506a223f9577f912') in 0.000842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Scenes/Bathroom_set(interior).unity
-  artifactKey: Guid(431a016914ee98a49ae93d06e521075b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Scenes/Bathroom_set(interior).unity using Guid(431a016914ee98a49ae93d06e521075b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ba97b5fd5c6a6b37c95f0e0de133bf4c') in 0.000432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Package/GeniusCrate_Games/Bathroom_Set
-  artifactKey: Guid(4e5143c4256dfec4d8db939fc6613cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set using Guid(4e5143c4256dfec4d8db939fc6613cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fe13541a18937ed7da87dae208d0e573') in 0.000533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.364 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.373 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -233,46 +197,113 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.938 seconds
-Domain Reload Profiling: 1301ms
+- Finished resetting the current domain, in  1.032 seconds
+Domain Reload Profiling: 1404ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3995.
+Memory consumption went from 134.8 MB to 134.8 MB.
+Total: 2.447200 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.115900 ms  DeleteObjects: 0.036900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.441 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 1478ms
 	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
-		LoadAssemblies (236ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (318ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
+		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (939ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1038ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (531ms)
+		SetupLoadedEditorAssemblies (580ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
+			BeforeProcessingInitializeOnLoad (88ms)
 			ProcessInitializeOnLoadAttributes (384ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3994.
-Memory consumption went from 134.2 MB to 134.1 MB.
-Total: 2.302200 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.126200 ms MarkObjects: 1.861700 ms  DeleteObjects: 0.038500 ms)
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3998.
+Memory consumption went from 134.8 MB to 134.8 MB.
+Total: 3.128000 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.650600 ms  DeleteObjects: 0.107300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -291,8 +322,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.361 seconds
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -300,46 +331,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.933 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (238ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (241ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (13ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (934ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (997ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
+		SetupLoadedEditorAssemblies (631ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3997.
-Memory consumption went from 134.4 MB to 134.4 MB.
-Total: 2.496500 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.208900 ms  DeleteObjects: 0.046200 ms)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4001.
+Memory consumption went from 134.8 MB to 134.8 MB.
+Total: 3.406700 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.097500 ms MarkObjects: 3.059600 ms  DeleteObjects: 0.043300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -358,8 +389,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.416 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.376 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -367,46 +398,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.961 seconds
-Domain Reload Profiling: 1376ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (270ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
+		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (962ms)
+	FinalizeReload (1005ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
+		SetupLoadedEditorAssemblies (662ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (384ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (388ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 4000.
-Memory consumption went from 134.4 MB to 134.4 MB.
-Total: 3.215400 ms (FindLiveObjects: 0.541700 ms CreateObjectMapping: 0.319900 ms MarkObjects: 2.312000 ms  DeleteObjects: 0.040300 ms)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4004.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 2.311100 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.114800 ms MarkObjects: 1.933100 ms  DeleteObjects: 0.033500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -422,3 +453,1174 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4004.
+Memory consumption went from 81.4 MB to 81.4 MB.
+Total: 2.444400 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.188500 ms  DeleteObjects: 0.018300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4004.
+Memory consumption went from 80.6 MB to 80.6 MB.
+Total: 2.937800 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.573900 ms  DeleteObjects: 0.020200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4004.
+Memory consumption went from 80.6 MB to 80.6 MB.
+Total: 1.986300 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.742600 ms  DeleteObjects: 0.014600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.554 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.913 seconds
+Domain Reload Profiling: 2465ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1061ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (178ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4007.
+Memory consumption went from 134.5 MB to 134.5 MB.
+Total: 2.032600 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.758800 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4007.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 2.194100 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.074200 ms MarkObjects: 1.921200 ms  DeleteObjects: 0.020700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.499 seconds
+Domain Reload Profiling: 4980ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (4499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4010.
+Memory consumption went from 134.5 MB to 134.5 MB.
+Total: 2.175700 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.071400 ms MarkObjects: 1.909500 ms  DeleteObjects: 0.034100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294789.510214 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '806f11cb024bfe5033fde0b74ed1d6b1') in 0.194542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_AO.png
+  artifactKey: Guid(321a8ef9f072c4393885e20494b36f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_AO.png using Guid(321a8ef9f072c4393885e20494b36f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '801262cb60d81195398fcf38dc74e188') in 0.155686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_Normal.png
+  artifactKey: Guid(ee9816fa396044d64a8c876416bdf2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_Normal.png using Guid(ee9816fa396044d64a8c876416bdf2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd0c256d46f67e4f48c13cfbc38fb70d') in 0.118512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c35da5eb8f9cdca8d139f1be53933c9c') in 0.047309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8952c1357b8007d4ca211798781df9b') in 0.014164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/Briefs_color.jpg
+  artifactKey: Guid(893b8cc931f41c0458150c7ac4db3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Briefs_color.jpg using Guid(893b8cc931f41c0458150c7ac4db3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0fccfed1751959cad86c59d215294b35') in 0.044437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_AO.png
+  artifactKey: Guid(c65b3236a85ef48ca9847da8ca8c3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_AO.png using Guid(c65b3236a85ef48ca9847da8ca8c3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '465db30c17b8e174e1dc78463e48dfc8') in 0.052139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_AlbedoTransparency.png
+  artifactKey: Guid(e25389a61817043aca3e1cb7182f4306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_AlbedoTransparency.png using Guid(e25389a61817043aca3e1cb7182f4306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '91f04f701411c48e3c98d5a7d13833c6') in 0.057644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019628 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_AlbedoTransparency.png
+  artifactKey: Guid(0a03aacbddaf447a0abfc63467ba7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_AlbedoTransparency.png using Guid(0a03aacbddaf447a0abfc63467ba7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6eb35d0bfabeb4404955fe5621a18ab8') in 0.044880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FBX/face_color.jpg
+  artifactKey: Guid(6cf9af416cf2aac4583dc59fe3f2ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/face_color.jpg using Guid(6cf9af416cf2aac4583dc59fe3f2ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f7927a33de8f4134323b2b99f34719b') in 0.075052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_MetallicSmoothness.png
+  artifactKey: Guid(01e2216e9b1ae495e90f14d269f87f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_MetallicSmoothness.png using Guid(01e2216e9b1ae495e90f14d269f87f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8997a3e44d9c185cb992f6efffd7c64') in 0.051136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_Normal.png
+  artifactKey: Guid(7d2463aeef6ef4fbca9dce01fae0856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_Normal.png using Guid(7d2463aeef6ef4fbca9dce01fae0856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42b65198c820af9b76f866b2e21a8d07') in 0.079800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_AO.png
+  artifactKey: Guid(c6df69b6a272a4ab49fa2422d5bf29a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_AO.png using Guid(c6df69b6a272a4ab49fa2422d5bf29a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '536ca78836c59a1d6a132ec37f8457fe') in 0.067778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_MetallicSmoothness.png
+  artifactKey: Guid(7336373d6d8924e35befbb2c0278d2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_MetallicSmoothness.png using Guid(7336373d6d8924e35befbb2c0278d2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a197a5f5d9a2bfadcb4bfaf5a470422') in 0.066964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AO.png
+  artifactKey: Guid(c6a6c9eb2af5f4bd8b3f80200b003d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AO.png using Guid(c6a6c9eb2af5f4bd8b3f80200b003d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63293ef9c5d4bcb0cd7f3852c9c15cb0') in 0.071846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_MetallicSmoothness.png
+  artifactKey: Guid(7ca3294d967994b4188cac5f17399c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_MetallicSmoothness.png using Guid(7ca3294d967994b4188cac5f17399c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '525e1bf5f5058040d74bab86d7232431') in 0.186271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_MetallicSmoothness.png
+  artifactKey: Guid(7461ceeba0cdc4ee382661bfc7d040b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet03_Material_MetallicSmoothness.png using Guid(7461ceeba0cdc4ee382661bfc7d040b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '88d52fffafba1a10b54971517359f949') in 0.054162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1dfe0ece51d73035ce9b742e341a1812') in 0.091757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_Normal.png
+  artifactKey: Guid(4f4005ca5f5fc62438719b88ebb250c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_Normal.png using Guid(4f4005ca5f5fc62438719b88ebb250c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08eef26e96d12ea0e374353745d441e7') in 0.105535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomMaterial_MetallicSmoothness.png
+  artifactKey: Guid(07ceeb486acf34ba2b304b9cc3a24110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomMaterial_MetallicSmoothness.png using Guid(07ceeb486acf34ba2b304b9cc3a24110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31b5b5af8454fe58691161dbd05de0bc') in 0.078007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeRoomAccessoriesMaterial_MetallicSmoothness.png
+  artifactKey: Guid(2b041380156854954bd346ed7dfae754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeRoomAccessoriesMaterial_MetallicSmoothness.png using Guid(2b041380156854954bd346ed7dfae754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0951bb11d3858a34fac29d322252413a') in 0.074186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRefrigeratorMaterial_MetallicSmoothness.png
+  artifactKey: Guid(7686b978eaee64a74b68aa5bb62f1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRefrigeratorMaterial_MetallicSmoothness.png using Guid(7686b978eaee64a74b68aa5bb62f1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '475edd5c559f944e3348ea313c9ad563') in 0.045031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment02Material_AlbedoTransparency.png
+  artifactKey: Guid(7995cc51403c448ecba8b6d4650787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment02Material_AlbedoTransparency.png using Guid(7995cc51403c448ecba8b6d4650787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6d0f031ceebd6227027a5dea7bbd9b4') in 0.060754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomAccessoriesMaterial_AO.png
+  artifactKey: Guid(b7aca02bddc5a4db1a94dd2697d51e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomAccessoriesMaterial_AO.png using Guid(b7aca02bddc5a4db1a94dd2697d51e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b40b9f9698ddbbccc5e97a41b521fdb') in 0.073597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeEquipment01Material_AO.png
+  artifactKey: Guid(4dfb0552b1335418ab64023163a9cf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeEquipment01Material_AO.png using Guid(4dfb0552b1335418ab64023163a9cf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8d1ea6f4beb0518611fee5f00306c5b') in 0.073161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_AO.png
+  artifactKey: Guid(b183212f092be4d9b812117bb849b370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_AO.png using Guid(b183212f092be4d9b812117bb849b370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6088106efb0a3344965adc4c7f3541c') in 0.066343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX/teeth_color.jpg
+  artifactKey: Guid(0407c127fd66c384aa665f931b214d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/teeth_color.jpg using Guid(0407c127fd66c384aa665f931b214d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3635951a884572a3f18cf4ba4dbd046d') in 0.040167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eaa9223aa6a7a9d51aab97fd4f578bf2') in 0.034547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_MetallicSmoothness.png
+  artifactKey: Guid(4462e8b2fac084332918bd30457374cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_MetallicSmoothness.png using Guid(4462e8b2fac084332918bd30457374cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c259696831c32425fe07fbdfbfc4113') in 0.036232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012777 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_Normal.png
+  artifactKey: Guid(96d5dc4740adf4d9e9249d5022e942be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCoffeeMaker_ToasterMaterial_Normal.png using Guid(96d5dc4740adf4d9e9249d5022e942be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cdec930f3f0e505db7730f41a0318599') in 0.134825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet03_Material_AO.png
+  artifactKey: Guid(31fe44a10d17641a98534457ea9a4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet03_Material_AO.png using Guid(31fe44a10d17641a98534457ea9a4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6802452aa71a794ffbc071278edf8c83') in 0.058365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_Normal.png
+  artifactKey: Guid(163839959214e4cebad7297c2f117873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_Normal.png using Guid(163839959214e4cebad7297c2f117873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '927bd32048ab91907eee0f02aac2a194') in 0.054425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCoffeeMaker_ToasterMaterial_Normal.png
+  artifactKey: Guid(5bb288b39c8d8468683216db0f74e355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCoffeeMaker_ToasterMaterial_Normal.png using Guid(5bb288b39c8d8468683216db0f74e355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2547fcafb34ff65a5761e39161ea39b3') in 0.065091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_Metallic.png
+  artifactKey: Guid(50923198656c01a4a89e88b8110ec256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_Metallic.png using Guid(50923198656c01a4a89e88b8110ec256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b4cbfdb90ab668faafe4706d43e9828') in 0.039701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_MetallicSmoothness.png
+  artifactKey: Guid(8ed2a69e63cba4a0f84c2ad2dcff1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_MetallicSmoothness.png using Guid(8ed2a69e63cba4a0f84c2ad2dcff1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '36119a3d27c32b785380b5aa9bebf0f4') in 0.055974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRefrigeratorMaterial_MetallicSmoothness.png
+  artifactKey: Guid(327fcfa577490424e8d519204d03518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRefrigeratorMaterial_MetallicSmoothness.png using Guid(327fcfa577490424e8d519204d03518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72323bff57b0d43e2bd843f46ad70df3') in 0.046856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FBX/Idle.fbm/Ch02_1002_Diffuse.png
+  artifactKey: Guid(291265ca0bb6faf439f51dbc32537701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Idle.fbm/Ch02_1002_Diffuse.png using Guid(291265ca0bb6faf439f51dbc32537701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf75d658f08dc6ecef5642bf9b147844') in 0.056620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_Props_Set/Bathroom_Props_Set01_Roughness.png
+  artifactKey: Guid(f2f530f6f54484f4b9a5c6989618088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_Props_Set/Bathroom_Props_Set01_Roughness.png using Guid(f2f530f6f54484f4b9a5c6989618088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7f49cd4793256e80e3d8bc0ebafd1ce') in 0.046157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be872ebcbead1ca81443dc11c503069c') in 0.019348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Idle.fbm/Ch02_1001_Specular.png
+  artifactKey: Guid(601682c4b497cee4bbe3f1dd830b154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Idle.fbm/Ch02_1001_Specular.png using Guid(601682c4b497cee4bbe3f1dd830b154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b69fbcda28e3f61c78f78444897e0d64') in 0.036343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '04e5fba5fea20e496c39badd8e037095') in 0.022111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_AO.png
+  artifactKey: Guid(d0290828450b14799b80a589dad3cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_AO.png using Guid(d0290828450b14799b80a589dad3cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be6d56223fc9c21031bd86ddbbd00603') in 0.073735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment02Material_MetallicSmoothness.png
+  artifactKey: Guid(ee49eae954d404aef930076a5eafb0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment02Material_MetallicSmoothness.png using Guid(ee49eae954d404aef930076a5eafb0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7c98907dbe56af1a7ba35b42cd71ea3') in 0.053434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_Normal.png
+  artifactKey: Guid(73ad20042c7984840a77f543f2772265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment01Material_Normal.png using Guid(73ad20042c7984840a77f543f2772265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa62d6ec570e31352623569d7802d283') in 0.060149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_Normal.png
+  artifactKey: Guid(083281d80331941689e8b05c1410004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_Normal.png using Guid(083281d80331941689e8b05c1410004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '893d86ba5d635ecd688ada886ddb3824') in 0.074073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomAccessoriesMaterial_AlbedoTransparency.png
+  artifactKey: Guid(100ea48a9bd2a444691de76ddabb0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomAccessoriesMaterial_AlbedoTransparency.png using Guid(100ea48a9bd2a444691de76ddabb0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f52fef608947dc387f05b3428eeeb353') in 0.103829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomMaterial_MetallicSmoothness.png
+  artifactKey: Guid(93d35dc047a164305b43a1b145efdd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeRoomMaterial_MetallicSmoothness.png using Guid(93d35dc047a164305b43a1b145efdd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f55d8f4d882c3f13241c8af4a19a983') in 0.148754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_Props_Set/Bathroom_Props_Set01_Normal.png
+  artifactKey: Guid(76282b01f9cd4a64ebfd3597f6ba4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_Props_Set/Bathroom_Props_Set01_Normal.png using Guid(76282b01f9cd4a64ebfd3597f6ba4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f76f85742ac02ede486164cb07288560') in 0.054020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_props_Set02/Bathroom_Props_Set02_Height.png
+  artifactKey: Guid(cfa81f771f035ae4b86f3a67ee9f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Bathroom_props_Set02/Bathroom_Props_Set02_Height.png using Guid(cfa81f771f035ae4b86f3a67ee9f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1907f847925b3fcc2079996087b436d9') in 0.036650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/cloth_color.jpg
+  artifactKey: Guid(f463dfc48de0cfa44af369b6aca72366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/cloth_color.jpg using Guid(f463dfc48de0cfa44af369b6aca72366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eba73d87aaa3a81b0a16f9640a248fab') in 0.085310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet03_Material_MetallicSmoothness.png
+  artifactKey: Guid(f1573423fafac42bc9290ec38213a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet03_Material_MetallicSmoothness.png using Guid(f1573423fafac42bc9290ec38213a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '668e8b340f250b03e3d66d7c17b2202b') in 0.048082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Package/Low Poly Furniture/Demos/Demo_Assets/Lightmap-0_comp_light.exr
+  artifactKey: Guid(baa665f557c0ccc458b43aa9d927b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Low Poly Furniture/Demos/Demo_Assets/Lightmap-0_comp_light.exr using Guid(baa665f557c0ccc458b43aa9d927b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f6fe74fd4e9f7e672fb24f6c1e6d3bc') in 0.056814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/washing_machine/Washing_machie_BaseColor.png
+  artifactKey: Guid(b13905263441e7945b86039a6fb784ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/washing_machine/Washing_machie_BaseColor.png using Guid(b13905263441e7945b86039a6fb784ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e4b4f2403562c00861ea1b0c77d609f') in 0.073581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3bda6f5e1691e938939a8b21d352cf78') in 0.029122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AO.png
+  artifactKey: Guid(c32c54b50821945c6863fbe95ee78d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AO.png using Guid(c32c54b50821945c6863fbe95ee78d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af7431eb6833f3956f3400a1b0b2fe2e') in 0.061986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment02Material_AlbedoTransparency.png
+  artifactKey: Guid(a1ce6493b2342458091e39ac4cb73c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeEquipment02Material_AlbedoTransparency.png using Guid(a1ce6493b2342458091e39ac4cb73c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '087b24ba9a12fb12e89e313471581e4e') in 0.038860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FBX/Idle.fbm/Ch02_1001_Diffuse.png
+  artifactKey: Guid(8b2a7796975793349bc28ec8ac09ea56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Idle.fbm/Ch02_1001_Diffuse.png using Guid(8b2a7796975793349bc28ec8ac09ea56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b2a6121c5e12e7af271f438c4b8d083') in 0.098319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92bfec8fe8e5f8aac96a971b9c0bb888') in 0.025409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/wooden_Rack/Wooden_Table_BaseColor.png
+  artifactKey: Guid(61e7cb34478735545bc46a62ba4a1fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/wooden_Rack/Wooden_Table_BaseColor.png using Guid(61e7cb34478735545bc46a62ba4a1fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '702c38bcb6d2e510f17de73e04476643') in 0.072732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b24ef18abe7fa9c6fd31fca4ff241a5c') in 0.042597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX/eye_color.jpg
+  artifactKey: Guid(1c73229eefdda3a479e568494fb33eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/eye_color.jpg using Guid(1c73229eefdda3a479e568494fb33eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '107f8687b57822bf03cbfd61222cf2a0') in 0.019097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_AO.png
+  artifactKey: Guid(1ef284e3ee543e4439edf1238b4e331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Drawers/drawers_drawers_mat_AO.png using Guid(1ef284e3ee543e4439edf1238b4e331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2caa9e55efa390a410c0ceb74ef32065') in 0.091738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_Normal.png
+  artifactKey: Guid(108f1334f91ff45eaa0ad75ae1ef8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_Normal.png using Guid(108f1334f91ff45eaa0ad75ae1ef8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20d20cd0c117d4383209eb03693b6c1b') in 0.134940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_Normal.png
+  artifactKey: Guid(54e182a1f5aba48d39405846845c6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_Normal.png using Guid(54e182a1f5aba48d39405846845c6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e60a976477e52dba0a380fc44286d585') in 0.073057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_AO.png
+  artifactKey: Guid(6f6c8443720e6480f923d95e2c99073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_AO.png using Guid(6f6c8443720e6480f923d95e2c99073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '500c5f27d9861e8a4e8bea8f956d75a4') in 0.059717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomAccessoriesMaterial_Normal.png
+  artifactKey: Guid(9f90714d4cded40abbd94945fd3324e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomAccessoriesMaterial_Normal.png using Guid(9f90714d4cded40abbd94945fd3324e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e8fef181f528b8b34bc34957685b3b4') in 0.058313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Iron_wooden_Table/Iron_Wooden_Table_BaseColor.png
+  artifactKey: Guid(cf47e14930ebe3e4783157a40317acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/GeniusCrate_Games/Bathroom_Set/Texture Maps/Bathroom_props_set/Iron_wooden_Table/Iron_Wooden_Table_BaseColor.png using Guid(cf47e14930ebe3e4783157a40317acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e822ffaba90ab6ee0bc18fdaba8fc588') in 0.064033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_MetallicSmoothness.png
+  artifactKey: Guid(95c4d7f8c092c49a5876c089dc1a4f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCoffeeMaker_ToasterMaterial_MetallicSmoothness.png using Guid(95c4d7f8c092c49a5876c089dc1a4f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0e165e48fbacf146e4e0477a0bf4831') in 0.035728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_Normal.png
+  artifactKey: Guid(2d29c55ae1c76492b97578352f248ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_Normal.png using Guid(2d29c55ae1c76492b97578352f248ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aac08a37df537f138aba1141bdba17c2') in 0.133111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomMaterial_AlbedoTransparency.png
+  artifactKey: Guid(3da399e56e7684e5a944ae4edd162e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeRoomMaterial_AlbedoTransparency.png using Guid(3da399e56e7684e5a944ae4edd162e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '759c298bfff775666031ad31a7d7c067') in 0.083318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AO.png
+  artifactKey: Guid(7c7dd1f0698ca40e69ed529d91490707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AO.png using Guid(7c7dd1f0698ca40e69ed529d91490707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df89ac2dc806eb777937043e92606e97') in 0.068421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeEquipment02Material_AlbedoTransparency.png
+  artifactKey: Guid(63817bc71ef744c7691662b8a017fb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeEquipment02Material_AlbedoTransparency.png using Guid(63817bc71ef744c7691662b8a017fb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c1f10f38edec1f463e4663775f9ed92') in 0.036012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.039 seconds
+Refreshing native plugins compatible for Editor in 20.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.544 seconds
+Domain Reload Profiling: 2580ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (712ms)
+		LoadAssemblies (781ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4065.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 3.471500 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.187400 ms MarkObjects: 2.952400 ms  DeleteObjects: 0.058400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4068.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 3.063500 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.169800 ms MarkObjects: 2.567100 ms  DeleteObjects: 0.056100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 379.358456 seconds.
+  path: Assets/Script/ConstructionZone.cs
+  artifactKey: Guid(eef6e0a4fa7b13c4197886ce9b77d3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/ConstructionZone.cs using Guid(eef6e0a4fa7b13c4197886ce9b77d3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '788f27d19fb762a6ecf43dca3b867597') in 0.002240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 1471ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (647ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 4071.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 3.017100 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.579900 ms  DeleteObjects: 0.087100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 442.819699 seconds.
+  path: Assets/Image/MaterialZone.png
+  artifactKey: Guid(85181efb399d16b4880392e2f9c9c0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/MaterialZone.png using Guid(85181efb399d16b4880392e2f9c9c0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cdfb7c8c9c4f43b572dec8fa2ef22467') in 0.074182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
