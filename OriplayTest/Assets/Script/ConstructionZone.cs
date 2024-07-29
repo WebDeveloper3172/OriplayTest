@@ -10,6 +10,7 @@ public class ConstructionZone : MonoBehaviour
     public GameObject[] smallConstructionStages;
 
     public TMP_Text boxesRemainingText; // UI text to display remaining boxes
+    public ConstructionZoneManager constructionZoneManager;
 
     private void Start()
     {
@@ -57,6 +58,7 @@ public class ConstructionZone : MonoBehaviour
         Debug.LogError("Construction complete");
         // Additional logic for completed construction
         // E.g., deactivating the construction zone, playing a sound, etc.
+        constructionZoneManager.ActivateNextStage();
         gameObject.SetActive(false);
         boxesRemainingText.gameObject.SetActive(false);
     }
