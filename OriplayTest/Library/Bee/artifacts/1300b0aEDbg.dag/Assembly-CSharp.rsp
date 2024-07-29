@@ -363,6 +363,7 @@
 "Assets/Script/Input/PlayerController.cs"
 "Assets/Script/Input/PlayerInput.cs"
 "Assets/Script/MaterialGathering.cs"
+"Assets/Script/VirtualJoystick.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

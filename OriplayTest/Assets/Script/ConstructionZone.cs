@@ -52,7 +52,6 @@ public class ConstructionZone : MonoBehaviour
             CompleteConstruction();
         }
     }
-
     private void CompleteConstruction()
     {
         Debug.LogError("Construction complete");
