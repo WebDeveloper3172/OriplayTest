@@ -57,7 +57,7 @@ public class ConstructionZone : MonoBehaviour
         Debug.LogError("Construction complete");
         // Additional logic for completed construction
         // E.g., deactivating the construction zone, playing a sound, etc.
-        //gameObject.SetActive(false);
+        gameObject.SetActive(false);
         boxesRemainingText.gameObject.SetActive(false);
     }
 

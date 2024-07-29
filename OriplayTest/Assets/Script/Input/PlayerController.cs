@@ -5,7 +5,12 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     private Vector2 moveInput;
+    private Animator animator;
 
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void OnEnable()
     {
         // Subscribe to the input system
@@ -34,9 +39,27 @@ public class PlayerController : MonoBehaviour
         // Apply the movement input to the player's position
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y) * moveSpeed * Time.deltaTime;
         transform.Translate(move, Space.World);
+
+        if (IsMoving())
+        {
+            //StartRunningAnimation();
+        }
+        else
+        {
+            //StopRunningAnimation();
+        }
     }
     public bool IsMoving()
     {
         return moveInput != Vector2.zero;
     }
+    /*private void StartRunningAnimation()
+    {
+        animator.SetBool("isRunning", true);
+    }
+
+    private void StopRunningAnimation()
+    {
+        animator.SetBool("isRunning", false);
+    }*/
 }
