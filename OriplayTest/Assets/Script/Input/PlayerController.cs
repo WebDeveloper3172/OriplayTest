@@ -53,13 +53,4 @@ public class PlayerController : MonoBehaviour
     {
         return moveInput != Vector2.zero;
     }
-    /*private void StartRunningAnimation()
-    {
-        animator.SetBool("isRunning", true);
-    }
-
-    private void StopRunningAnimation()
-    {
-        animator.SetBool("isRunning", false);
-    }*/
 }
