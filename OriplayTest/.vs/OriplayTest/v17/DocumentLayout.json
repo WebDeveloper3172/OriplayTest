@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\stickmangithub\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\constructionzonemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzonemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\input\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\materialgathering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\materialgathering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\stickmangithub\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\constructionzonemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzonemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\stickmangithub\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,16 +26,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "VirtualJoystick.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\VirtualJoystick.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\VirtualJoystick.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\VirtualJoystick.cs*",
-              "RelativeToolTip": "Assets\\Script\\VirtualJoystick.cs*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\VirtualJoystick.cs",
+              "RelativeToolTip": "Assets\\Script\\VirtualJoystick.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T06:55:08.895Z",
@@ -47,53 +43,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ConstructionZoneManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZoneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ConstructionZoneManager.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZoneManager.cs",
               "RelativeToolTip": "Assets\\Script\\ConstructionZoneManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T03:51:45.091Z",
+              "WhenOpened": "2024-07-30T10:27:08.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ConstructionZone.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ConstructionZone.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs*",
-              "RelativeToolTip": "Assets\\Script\\ConstructionZone.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAFAAAA",
+              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs",
+              "RelativeToolTip": "Assets\\Script\\ConstructionZone.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T06:45:46.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MaterialGathering.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\MaterialGathering.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MaterialGathering.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\MaterialGathering.cs",
               "RelativeToolTip": "Assets\\Script\\MaterialGathering.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAnwDMAAAANAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwGIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T06:44:57.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Input\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\StickmanGitHub\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\Input\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Script\\Input\\PlayerController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvxwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:24:01.831Z"
+              "WhenOpened": "2024-07-28T06:44:57.109Z",
+              "EditorCaption": ""
             }
           ]
         }

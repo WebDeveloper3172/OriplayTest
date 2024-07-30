@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
+using System.Threading;
+using System.Collections;
 
 public class ConstructionZone : MonoBehaviour
 {
@@ -20,17 +22,29 @@ public class ConstructionZone : MonoBehaviour
     public int AddBoxes(int boxCount)
     {
         int boxesToUse = Mathf.Min(boxCount, totalBoxesNeeded - boxesDelivered);
-        boxesDelivered += boxesToUse;
-        UpdateConstruction();
-        UpdateUI();
-        return boxCount - boxesToUse;
+        StartCoroutine(DescreaseBoxesWithDelay(boxCount,boxesToUse));
+        //boxesDelivered += boxesToUse;
+        //UpdateConstruction();
+        //UpdateUI();
+        return totalBoxesNeeded - boxesDelivered;
+    }
+    private IEnumerator  DescreaseBoxesWithDelay(int initialBoxCount, int boxesToUse)
+    {
+        for (int i = 0; i < boxesToUse; i++)
+        {
+            boxesDelivered++;
+            UpdateConstruction();
+            UpdateUI();
+            //Debug.LogError("UI sus : " + (initialBoxCount - (i+1)));
+            yield return new WaitForSeconds(0.3f);
+           
+        }
     }
 
     private void UpdateConstruction()
     {
         float progress = (float)boxesDelivered / totalBoxesNeeded;
-     
-
+  
         int largeStagesToShow = Mathf.FloorToInt(progress * largeConstructionStages.Length);
         for (int i = 0; i < largeConstructionStages.Length; i++)
         {

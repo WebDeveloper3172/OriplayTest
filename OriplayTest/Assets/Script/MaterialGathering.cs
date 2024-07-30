@@ -12,6 +12,7 @@ public class MaterialGathering : MonoBehaviour
     public PlayerController playerController; // Referință la componenta PlayerController
     private bool isInMaterialZone = false;
     private Coroutine collectingCoroutine;
+    private Coroutine deliveringCoroutine;
 
     private void Start()
     {
@@ -46,9 +47,14 @@ public class MaterialGathering : MonoBehaviour
             ConstructionZone constructionZone = other.GetComponent<ConstructionZone>();
             if (constructionZone != null)
             {
-                Debug.LogError("ConstructionZone component found");
-                currentBoxes = constructionZone.AddBoxes(currentBoxes);
-                UpdateUI();
+                //Debug.LogError("CurentBoxes after: " + currentBoxes);
+                //currentBoxes = constructionZone.AddBoxes(currentBoxes);
+                //Debug.LogError("CurentBoxes before: " + currentBoxes);
+                //UpdateUI();
+                if (deliveringCoroutine == null)
+                {
+                    deliveringCoroutine = StartCoroutine(DeliverBoxes(constructionZone));
+                }
             }
         }
     }
@@ -60,9 +66,7 @@ public class MaterialGathering : MonoBehaviour
             isInMaterialZone = false;
         }
 
-      
     }
-
     private IEnumerator CollectBoxes()
     {
         while (currentBoxes < maxBoxes)
@@ -78,6 +82,24 @@ public class MaterialGathering : MonoBehaviour
 
             yield return new WaitForSeconds(collectionInterval);
         }
+    }
+    private IEnumerator DeliverBoxes(ConstructionZone constructionZone)
+    {
+        int boxesToDeliver = currentBoxes;
+        while (boxesToDeliver > 0)
+        {
+            int remainingBoxes = constructionZone.AddBoxes(1);
+            currentBoxes--;
+            boxesToDeliver = remainingBoxes;
+            UpdateUI();
+            if (currentBoxes <= 0)
+            {
+                currentBoxes = 0;
+                break;
+            }
+            yield return new WaitForSeconds(collectionInterval);
+        }
+        deliveringCoroutine = null;
     }
 
     private void UpdateUI()
