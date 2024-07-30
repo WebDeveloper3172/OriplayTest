@@ -42,11 +42,11 @@ public class PlayerController : MonoBehaviour
 
         if (IsMoving())
         {
-            //StartRunningAnimation();
+            animator.SetBool("isRunning", true );
         }
         else
         {
-            //StopRunningAnimation();
+            animator.SetBool("isRunning", false);
         }
     }
     public bool IsMoving()
