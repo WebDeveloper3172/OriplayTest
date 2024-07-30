@@ -1977,8 +1977,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -622.561, y: -112.0535}
-  m_SizeDelta: {x: 1245.122, y: 224.107}
+  m_AnchoredPosition: {x: -598.9551, y: -91.52734}
+  m_SizeDelta: {x: 1197.91, y: 183.055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236074116
 MonoBehaviour:
@@ -5337,7 +5337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d7072c0a69fef44bfe31e6b64957d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 15
 --- !u!114 &740416555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5364,7 +5364,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740416548}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 5329d493fc05e0b45a973a0e8994f1e3, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 201958b8d8850b148aac9d3ca86d3b8a, type: 3}
   m_Controller: {fileID: 9100000, guid: 2046730806203884e850dbc6f352c16d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -6260,7 +6260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 188, y: 632}
+  m_AnchoredPosition: {x: 200, y: 200}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &903630731
