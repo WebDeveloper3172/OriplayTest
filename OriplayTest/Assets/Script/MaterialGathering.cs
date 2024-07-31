@@ -14,6 +14,8 @@ public class MaterialGathering : MonoBehaviour
     private Coroutine collectingCoroutine;
     private Coroutine deliveringCoroutine;
 
+    [SerializeField] AudioSource boxesPlaced;
+
     private void Start()
     {
         UpdateUI();
@@ -43,6 +45,7 @@ public class MaterialGathering : MonoBehaviour
         }
         if (other.CompareTag("ConstructionZone") && currentBoxes > 0)
         {
+            boxesPlaced.Play();
             Debug.LogError("Entered ConstructionZone with boxes");
             ConstructionZone constructionZone = other.GetComponent<ConstructionZone>();
             if (constructionZone != null)

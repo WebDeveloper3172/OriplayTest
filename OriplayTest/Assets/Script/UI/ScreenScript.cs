@@ -7,17 +7,17 @@ using UnityEngine.SceneManagement;
 public class ScreenScript : MonoBehaviour
 {
     [SerializeField] private List<MonoBehaviour> componentsToDisable = new List<MonoBehaviour>();
-    [SerializeField] private GameObject alwayscomponent;
+ 
 
     public void Initial()
     {
+        Debug.LogError($"<color=yellow>Oprit timpul</color>");
         Time.timeScale = 0;
-        alwayscomponent.SetActive(false);
         SetComponentsEnabled(false);
     }
     public void ReloadLevelButton()
     {
-        //PlayerLife.NumberEnemy = 0;
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1;
         SetComponentsEnabled(true);

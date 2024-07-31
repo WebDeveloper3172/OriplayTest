@@ -886,17 +886,6 @@ MonoBehaviour:
   m_Spacing: {x: 70, y: 40}
   m_Constraint: 1
   m_ConstraintCount: 2
---- !u!114 &871712746 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7183612661019147217, guid: d7edb21d2226270499467a33af06e525, type: 3}
-  m_PrefabInstance: {fileID: 1352488670}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3468f72e411fdf94d81d47911ca0e760, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &971582632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,10 +1515,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1056069093862305007, guid: d7edb21d2226270499467a33af06e525, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 45a856e43e008574fbae625f9cf8897c, type: 3}
     - target: {fileID: 3116341282485061732, guid: d7edb21d2226270499467a33af06e525, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -1542,10 +1527,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4731256422985226888, guid: d7edb21d2226270499467a33af06e525, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0839214fbd5f50b4cbd4463ca83c3ff3, type: 3}
     - target: {fileID: 6431698118553632595, guid: d7edb21d2226270499467a33af06e525, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1630,14 +1611,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1629038284}
-    - target: {fileID: 7338456279496858153, guid: d7edb21d2226270499467a33af06e525, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 871712746}
-    - target: {fileID: 7338456279496858153, guid: d7edb21d2226270499467a33af06e525, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Start
-      objectReference: {fileID: 0}
     - target: {fileID: 7682611414211157046, guid: d7edb21d2226270499467a33af06e525, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1

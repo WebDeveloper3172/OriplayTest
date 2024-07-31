@@ -14,6 +14,8 @@ public class ConstructionZone : MonoBehaviour
     public TMP_Text boxesRemainingText; // UI text to display remaining boxes
     public ConstructionZoneManager constructionZoneManager;
 
+    [SerializeField] AudioSource finishedArea;
+
     private void Start()
     {
         UpdateUI();
@@ -72,6 +74,7 @@ public class ConstructionZone : MonoBehaviour
         // Additional logic for completed construction
         // E.g., deactivating the construction zone, playing a sound, etc.
         constructionZoneManager.ActivateNextStage();
+        finishedArea.Play();
         gameObject.SetActive(false);
         boxesRemainingText.gameObject.SetActive(false);
     }
