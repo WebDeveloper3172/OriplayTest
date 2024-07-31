@@ -1,56 +1,41 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private Vector2 moveInput;
+    public VariableJoystick variableJoystick;
+    public Rigidbody rb;
     private Animator animator;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
-    private void OnEnable()
-    {
-        // Subscribe to the input system
-        var playerInput = new PlayerInput();
-        playerInput.Player.Move.performed += OnMove;
-        playerInput.Player.Move.canceled += OnMove;
-        playerInput.Enable();
-    }
 
-    private void OnDisable()
+    private void FixedUpdate()
     {
-        // Unsubscribe from the input system
-        var playerInput = new PlayerInput();
-        playerInput.Player.Move.performed -= OnMove;
-        playerInput.Player.Move.canceled -= OnMove;
-        playerInput.Disable();
-    }
+        // Obține direcția de mișcare de la joystick
+        Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
 
-    private void OnMove(InputAction.CallbackContext context)
-    {
-        moveInput = context.ReadValue<Vector2>();
-    }
+        direction = direction.normalized;
+        Vector3 targetVelocity = direction * moveSpeed;
+        // Aplică forța pe Rigidbody pentru a mișca jucătorul
+        rb.velocity = new Vector3(targetVelocity.x, rb.velocity.y, targetVelocity.z);
 
-    private void Update()
-    {
-        // Apply the movement input to the player's position
-        Vector3 move = new Vector3(moveInput.x, 0, moveInput.y) * moveSpeed * Time.deltaTime;
-        transform.Translate(move, Space.World);
-
+        // Actualizează animația în funcție de mișcare
         if (IsMoving())
         {
-            animator.SetBool("isRunning", true );
+            animator.SetBool("isRunning", true);
         }
         else
         {
             animator.SetBool("isRunning", false);
         }
     }
+
     public bool IsMoving()
     {
-        return moveInput != Vector2.zero;
+        return variableJoystick.Horizontal != 0 || variableJoystick.Vertical != 0;
     }
 }
