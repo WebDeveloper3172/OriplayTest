@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float rotatespeed;
     public VariableJoystick variableJoystick;
     public Rigidbody rb;
     private Animator animator;
@@ -22,6 +23,14 @@ public class PlayerController : MonoBehaviour
         Vector3 targetVelocity = direction * moveSpeed;
         // Aplică forța pe Rigidbody pentru a mișca jucătorul
         rb.velocity = new Vector3(targetVelocity.x, rb.velocity.y, targetVelocity.z);
+
+        //if (direction.sqrMagnitude <= 0)
+        //{
+        //    return;
+        //}
+
+        var targetDirection = Vector3.RotateTowards(transform.forward, direction, rotatespeed * Time.deltaTime, 0.0f);
+        transform.rotation = Quaternion.LookRotation(targetDirection);
 
         // Actualizează animația în funcție de mișcare
         if (IsMoving())
