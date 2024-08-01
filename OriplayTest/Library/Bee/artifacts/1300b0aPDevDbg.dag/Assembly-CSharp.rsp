@@ -329,6 +329,7 @@
 "Assets/Script/Input/PlayerInput.cs"
 "Assets/Script/MaterialGathering.cs"
 "Assets/Script/UI/AudioManager.cs"
+"Assets/Script/UI/LevelCompletionChecker.cs"
 "Assets/Script/UI/LevelMenu.cs"
 "Assets/Script/UI/MenuScript.cs"
 "Assets/Script/UI/PauseMenu.cs"
