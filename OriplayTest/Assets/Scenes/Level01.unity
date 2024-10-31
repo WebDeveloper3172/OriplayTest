@@ -6507,7 +6507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a4f89608a5a224b9d780a1f47878af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
+  timeRemaining: 60
   timerText: {fileID: 1869692855}
   losePopup: {fileID: 1266471104}
 --- !u!4 &823599419
