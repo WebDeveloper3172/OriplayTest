@@ -70,7 +70,7 @@ public class ConstructionZone : MonoBehaviour
     }
     private void CompleteConstruction()
     {
-        Debug.LogError("Construction complete");
+        //Debug.LogError("Construction complete");
         // Additional logic for completed construction
         // E.g., deactivating the construction zone, playing a sound, etc.
         constructionZoneManager.ActivateNextStage();

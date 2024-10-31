@@ -46,7 +46,7 @@ public class MaterialGathering : MonoBehaviour
         if (other.CompareTag("ConstructionZone") && currentBoxes > 0)
         {
             boxesPlaced.Play();
-            Debug.LogError("Entered ConstructionZone with boxes");
+            //Debug.LogError("Entered ConstructionZone with boxes");
             ConstructionZone constructionZone = other.GetComponent<ConstructionZone>();
             if (constructionZone != null)
             {

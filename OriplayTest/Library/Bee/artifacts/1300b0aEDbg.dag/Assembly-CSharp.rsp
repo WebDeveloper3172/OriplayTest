@@ -373,6 +373,7 @@
 "Assets/Package/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Script/ConstructionZone.cs"
 "Assets/Script/ConstructionZoneManager.cs"
+"Assets/Script/GameTimer.cs"
 "Assets/Script/Input/PlayerController.cs"
 "Assets/Script/Input/PlayerInput.cs"
 "Assets/Script/MaterialGathering.cs"

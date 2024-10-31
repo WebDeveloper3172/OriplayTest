@@ -40,7 +40,7 @@ public class LevelCompletionChecker : MonoBehaviour
     {
         levelFinished = true;
         //winSound.Play();
-        finishPopUpScript.Initial();
+        //finishPopUpScript.Initial();
         finishPopup.SetActive(true);
         UnlockedNewLevel();
         Debug.LogError($"<color=yellow>A finisat metoda FinishLevel</color>");

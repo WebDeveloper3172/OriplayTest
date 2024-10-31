@@ -9,9 +9,9 @@ public class ScreenScript : MonoBehaviour
     [SerializeField] private List<MonoBehaviour> componentsToDisable = new List<MonoBehaviour>();
  
 
-    public void Initial()
+    public void Start()
     {
-        Debug.LogError($"<color=yellow>Oprit timpul</color>");
+        //Debug.LogError($"<color=yellow>Oprit timpul</color>");
         Time.timeScale = 0;
         SetComponentsEnabled(false);
     }
