@@ -1983,7 +1983,7 @@ GameObject:
   - component: {fileID: 236074117}
   - component: {fileID: 236074116}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Collected Boxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10690,9 +10690,9 @@ RectTransform:
   m_Children:
   - {fileID: 1827137752}
   - {fileID: 236074115}
+  - {fileID: 1264428627}
   - {fileID: 1613242946}
   - {fileID: 790411618}
-  - {fileID: 1264428627}
   - {fileID: 440207378}
   - {fileID: 1056917735}
   m_Father: {fileID: 0}
@@ -12494,6 +12494,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b10d7d4308ef6f9419edaccc72ab8b07, type: 3}
     - target: {fileID: 2233528485489174828, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
+      propertyPath: componentsToDisable.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233528485489174828, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
       propertyPath: componentsToDisable.Array.data[0]
       value: 
       objectReference: {fileID: 212446650}
@@ -12501,6 +12505,14 @@ PrefabInstance:
       propertyPath: componentsToDisable.Array.data[1]
       value: 
       objectReference: {fileID: 236074116}
+    - target: {fileID: 2233528485489174828, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
+      propertyPath: componentsToDisable.Array.data[2]
+      value: 
+      objectReference: {fileID: 1264428628}
+    - target: {fileID: 2233528485489174828, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
+      propertyPath: componentsToDisable.Array.data[3]
+      value: 
+      objectReference: {fileID: 1869692855}
     - target: {fileID: 2468446415786383947, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
       value: 0.70980394
@@ -12711,11 +12723,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460520742879797600, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4460520742879797600, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4460520742879797600, guid: 66f4365cfc22439478d1845dd81fa417, type: 3}
       propertyPath: m_AnchoredPosition.x
