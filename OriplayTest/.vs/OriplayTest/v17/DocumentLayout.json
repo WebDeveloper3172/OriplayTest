@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\materialgathering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\project\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\boxtransporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boxtransporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Project\\OriplayTest\\OriplayTest\\OriplayTest\\assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\project\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878AA2CE-767E-7071-757C-7DBC3D1E9213}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\constructionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\user\\desktop\\project\\oriplaytest\\oriplaytest\\oriplaytest\\assets\\script\\boxtransporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\script\\boxtransporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,14 +32,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\MaterialGathering.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Project\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\MaterialGathering.cs",
               "RelativeToolTip": "Assets\\Script\\MaterialGathering.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAAAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAqwJEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T15:24:40.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BoxTransporter.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\BoxTransporter.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BoxTransporter.cs",
@@ -47,12 +47,11 @@
               "RelativeToolTip": "Assets\\Script\\BoxTransporter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:50:31.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:50:31.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ConstructionZone.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\OriplayTest\\OriplayTest\\OriplayTest\\Assets\\Script\\ConstructionZone.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ConstructionZone.cs",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Assets\\Script\\ConstructionZone.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAcwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:46:55.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:46:55.519Z"
             }
           ]
         },

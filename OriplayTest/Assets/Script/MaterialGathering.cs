@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 public class MaterialGathering : MonoBehaviour
 {
@@ -12,10 +13,13 @@ public class MaterialGathering : MonoBehaviour
     public Transform playerHand; // Locul unde cutiile vor fi "puse" în mâna player-ului
     public PlayerController playerController; // Referință la componenta PlayerController
     private bool isInMaterialZone = false;
+    private bool isInConstructionZone = false;
     private Coroutine collectingCoroutine;
     private Coroutine deliveringCoroutine;
 
     [SerializeField] AudioSource boxesPlaced;
+
+    private List<GameObject> spawnedBoxes = new List<GameObject>(); // Lista pentru a reține cutiile instanțiate
 
     private void Start()
     {
@@ -36,6 +40,13 @@ public class MaterialGathering : MonoBehaviour
             StopCoroutine(collectingCoroutine);
             collectingCoroutine = null;
         }
+
+        // Oprește livrarea cutiilor dacă jucătorul a ieșit din ConstructionZone
+        if (!isInConstructionZone && deliveringCoroutine != null)
+        {
+            StopCoroutine(deliveringCoroutine);
+            deliveringCoroutine = null;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,14 +57,12 @@ public class MaterialGathering : MonoBehaviour
         }
         if (other.CompareTag("ConstructionZone") && currentBoxes > 0)
         {
+            isInConstructionZone = true;
             boxesPlaced.Play();
             ConstructionZone constructionZone = other.GetComponent<ConstructionZone>();
-            if (constructionZone != null)
+            if (constructionZone != null && deliveringCoroutine == null)
             {
-                if (deliveringCoroutine == null)
-                {
-                    deliveringCoroutine = StartCoroutine(DeliverBoxes(constructionZone));
-                }
+                deliveringCoroutine = StartCoroutine(DeliverBoxes(constructionZone));
             }
         }
     }
@@ -63,6 +72,15 @@ public class MaterialGathering : MonoBehaviour
         if (other.CompareTag("MaterialZone"))
         {
             isInMaterialZone = false;
+        }
+        if (other.CompareTag("ConstructionZone"))
+        {
+            isInConstructionZone = false;
+            if (deliveringCoroutine != null)
+            {
+                StopCoroutine(deliveringCoroutine);
+                deliveringCoroutine = null;
+            }
         }
     }
 
@@ -90,24 +108,33 @@ public class MaterialGathering : MonoBehaviour
         Vector3 spawnPosition = playerHand.position + Vector3.up * 0.2f * currentBoxes; // `0.3f` reprezintă distanța între cutii
         GameObject spawnedBox = Instantiate(boxPrefab, spawnPosition, Quaternion.identity);
         spawnedBox.transform.SetParent(playerHand); // Atașează cutia la mâna player-ului
+        spawnedBoxes.Add(spawnedBox); // Adaugă cutia în lista de cutii
     }
 
     private IEnumerator DeliverBoxes(ConstructionZone constructionZone)
     {
-        int boxesToDeliver = currentBoxes;
-        while (boxesToDeliver > 0)
+        while (currentBoxes > 0 && isInConstructionZone)
         {
             int remainingBoxes = constructionZone.AddBoxes(1);
             currentBoxes--;
-            boxesToDeliver = remainingBoxes;
             UpdateUI();
-            if (currentBoxes <= 0)
+
+            if (spawnedBoxes.Count > 0)
             {
-                currentBoxes = 0;
+                // Distruge ultima cutie din listă și o elimină din listă
+                GameObject lastBox = spawnedBoxes[spawnedBoxes.Count - 1];
+                spawnedBoxes.RemoveAt(spawnedBoxes.Count - 1);
+                Destroy(lastBox);
+            }
+
+            if (remainingBoxes <= 0)
+            {
                 break;
             }
+
             yield return new WaitForSeconds(collectionInterval);
         }
+
         deliveringCoroutine = null;
     }
 
