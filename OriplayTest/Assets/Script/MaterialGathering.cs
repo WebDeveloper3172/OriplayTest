@@ -7,8 +7,9 @@ public class MaterialGathering : MonoBehaviour
     public int maxBoxes = 5;
     public int currentBoxes = 0;
     public TMP_Text collectedBoxesText;
-    public float collectionInterval = 1.0f; // Interval in seconds to add a box
-
+    public float collectionInterval = 1.0f; // Intervalul în secunde pentru a adăuga o cutie
+    public GameObject boxPrefab; // Prefab-ul cutiei de transportat
+    public Transform playerHand; // Locul unde cutiile vor fi "puse" în mâna player-ului
     public PlayerController playerController; // Referință la componenta PlayerController
     private bool isInMaterialZone = false;
     private Coroutine collectingCoroutine;
@@ -46,14 +47,9 @@ public class MaterialGathering : MonoBehaviour
         if (other.CompareTag("ConstructionZone") && currentBoxes > 0)
         {
             boxesPlaced.Play();
-            //Debug.LogError("Entered ConstructionZone with boxes");
             ConstructionZone constructionZone = other.GetComponent<ConstructionZone>();
             if (constructionZone != null)
             {
-                //Debug.LogError("CurentBoxes after: " + currentBoxes);
-                //currentBoxes = constructionZone.AddBoxes(currentBoxes);
-                //Debug.LogError("CurentBoxes before: " + currentBoxes);
-                //UpdateUI();
                 if (deliveringCoroutine == null)
                 {
                     deliveringCoroutine = StartCoroutine(DeliverBoxes(constructionZone));
@@ -68,13 +64,14 @@ public class MaterialGathering : MonoBehaviour
         {
             isInMaterialZone = false;
         }
-
     }
+
     private IEnumerator CollectBoxes()
     {
         while (currentBoxes < maxBoxes)
         {
             currentBoxes++;
+            SpawnBox(); // Creează cutia în mâna player-ului
             UpdateUI();
 
             if (currentBoxes >= maxBoxes)
@@ -86,6 +83,15 @@ public class MaterialGathering : MonoBehaviour
             yield return new WaitForSeconds(collectionInterval);
         }
     }
+
+    private void SpawnBox()
+    {
+        // Creează cutia la poziția mâinii player-ului, cu un mic offset vertical în funcție de numărul cutiilor
+        Vector3 spawnPosition = playerHand.position + Vector3.up * 0.2f * currentBoxes; // `0.3f` reprezintă distanța între cutii
+        GameObject spawnedBox = Instantiate(boxPrefab, spawnPosition, Quaternion.identity);
+        spawnedBox.transform.SetParent(playerHand); // Atașează cutia la mâna player-ului
+    }
+
     private IEnumerator DeliverBoxes(ConstructionZone constructionZone)
     {
         int boxesToDeliver = currentBoxes;
