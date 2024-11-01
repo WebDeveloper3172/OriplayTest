@@ -2,6 +2,7 @@
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class MaterialGathering : MonoBehaviour
 {
@@ -50,16 +51,28 @@ public class MaterialGathering : MonoBehaviour
             deliveringCoroutine = null;
         }
 
-        // Activează/dezactivează animația de transportat cutii
-        if (currentBoxes > 0 && playerController.IsMoving())
+        if (currentBoxes > 0) // Verificăm dacă playerul are cutii
         {
-            Debug.Log("Se activeaza");
-            animator.SetBool("IsCarryingBoxes", true); // Activează animația
+            if (playerController.IsMoving())
+            {
+                Debug.Log("Se activează animația de mișcare");
+                animator.SetBool("IsCarryingBoxes", true); // Activează animația de transport
+                animator.SetBool("IdleWithItem", false); // Dezactivează animația de stat pe loc
+            }
+            else
+            {
+                Debug.Log("Se activează animația de stat pe loc");
+                animator.SetBool("IdleWithItem", true);
+                animator.SetBool("IsCarryingBoxes", false); // Dezactivează animația de transport
+                 // Activează animația de stat pe loc
+            }
         }
         else
         {
-            Debug.Log("Se dezactiveaza");
-            animator.SetBool("IsCarryingBoxes", false); // Dezactivează animația
+            // Dacă nu are cutii, asigură-te că dezactivezi ambele animații
+            Debug.Log("Nu are cutii");
+            animator.SetBool("IsCarryingBoxes", false);
+            animator.SetBool("IdleWithItem", false);
         }
     }
 
@@ -119,9 +132,10 @@ public class MaterialGathering : MonoBehaviour
     private void SpawnBox()
     {
         // Creează cutia la poziția mâinii player-ului, cu un mic offset vertical în funcție de numărul cutiilor
-        Vector3 spawnPosition = playerHand.position + Vector3.up * 0.2f * currentBoxes; // `0.3f` reprezintă distanța între cutii
+        Vector3 spawnPosition = playerHand.position + Vector3.up * 0.185f * currentBoxes; // `0.3f` reprezintă distanța între cutii
         GameObject spawnedBox = Instantiate(boxPrefab, spawnPosition, Quaternion.identity);
         spawnedBox.transform.SetParent(playerHand); // Atașează cutia la mâna player-ului
+        spawnedBox.transform.localEulerAngles = new Vector3(0, 0, 0);
         spawnedBoxes.Add(spawnedBox); // Adaugă cutia în lista de cutii
     }
 
