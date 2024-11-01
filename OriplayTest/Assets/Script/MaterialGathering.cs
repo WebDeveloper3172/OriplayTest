@@ -20,10 +20,12 @@ public class MaterialGathering : MonoBehaviour
     [SerializeField] AudioSource boxesPlaced;
 
     private List<GameObject> spawnedBoxes = new List<GameObject>(); // Lista pentru a reține cutiile instanțiate
+    private Animator animator; // Referință la Animator
 
     private void Start()
     {
         UpdateUI();
+        animator = GetComponent<Animator>(); // Obține componenta Animator
     }
 
     private void Update()
@@ -46,6 +48,18 @@ public class MaterialGathering : MonoBehaviour
         {
             StopCoroutine(deliveringCoroutine);
             deliveringCoroutine = null;
+        }
+
+        // Activează/dezactivează animația de transportat cutii
+        if (currentBoxes > 0 && playerController.IsMoving())
+        {
+            Debug.Log("Se activeaza");
+            animator.SetBool("IsCarryingBoxes", true); // Activează animația
+        }
+        else
+        {
+            Debug.Log("Se dezactiveaza");
+            animator.SetBool("IsCarryingBoxes", false); // Dezactivează animația
         }
     }
 
